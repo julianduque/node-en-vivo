@@ -1,0 +1,7 @@
+{
+  "name": "lambda-arc-get-index",
+  "dependencies": {
+    "@architect/data": "^2.0.8",
+    "@architect/functions": "^1.10.3"
+  }
+}
