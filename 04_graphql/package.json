@@ -1,0 +1,16 @@
+{
+  "name": "04_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-graphqljs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3"
+  }
+}

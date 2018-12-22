@@ -1,0 +1,26 @@
+type Query {
+  users(status: Status = ACTIVE): [User]
+}
+
+type Mutation {
+  createUser(user: UserInput): User
+}
+
+input UserInput {
+  name: String!
+  email: String!
+  age: Int
+  status: String
+}
+
+type User {
+  name: String
+  email: String
+  age: Int
+  status: Status
+}
+
+enum Status {
+  ACTIVE
+  SUSPENDED
+}
