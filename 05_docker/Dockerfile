@@ -8,7 +8,5 @@ RUN chmod +x /tini
 COPY . .
 RUN npm install
 
-EXPOSE 9999
-
 ENTRYPOINT ["/tini", "--"]
 CMD ["node", "index.js"]
