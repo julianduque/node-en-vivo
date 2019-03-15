@@ -1,9 +1,12 @@
 type Query {
-  users(status: Status = ACTIVE): [User]
+  users(status: Status): [User]
 }
 
 type Mutation {
   createUser(user: UserInput): User
+}
+type Subscription {
+  userCreated: User
 }
 
 input UserInput {
